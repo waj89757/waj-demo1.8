@@ -4,9 +4,13 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.jjbond.demo</groupId>
-    <artifactId>jav1.8</artifactId>
+    <groupId>com.jjbond</groupId>
+    <artifactId>waj-demo1.8</artifactId>
     <version>1.0-SNAPSHOT</version>
-
-
+    <modules>
+        <module>jav1.8</module>
+        <module>akka</module>
+        <module>akka-demo</module>
+    </modules>
+    <packaging>pom</packaging>
 </project>
